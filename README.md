@@ -12,8 +12,9 @@ When the reader has completed this Code Pattern, they will understand how to:
 
 The intended audience for this Code Pattern is application developers and other stakeholders who wish to utilize the power of Maximo Asset Monitor to quickly and effectively monitor any asset to ensure availability, utilization and efficiency.
 
-<!-- ![architecture](./images/architecture.png) -->
-<img src="https://developer.ibm.com/developer/patterns/visualizing-iot-data-in-dashboards-using-python/images/visualizing-iot-data-in-dashboards-using-python.png">
+![architecture](./images/visualizing-iot-data-in-dashboards-using-python.png)
+<!-- <img  src="https://developer.ibm.com/developer/patterns/visualizing-iot-data-in-dashboards-using-python/images/visualizing-iot-data-in-dashboards-using-python.png"> -->
+
 
 #  Components
 
