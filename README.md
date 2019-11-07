@@ -196,13 +196,13 @@ Explore > Entity Types > Buildings > Add Data
 Set values/credentials for your Maximo instance.
 ```
 URL = <maximo_url>
-username	= <username>
+usernam	= <username>
 password = <password>
 request = GET (select from drop down)
 ```
 
 <p align="center">
-<img src="https://i.imgur.com/VPCGnMe.png"/>
+<img src="https://i.imgur.com/PI8zY39.png"/>
 </p>
 
 <!-- ![credentials](./images/function-tenant.png) -->
