@@ -104,7 +104,7 @@ db_schema = meta['schemaName']
 table_name = meta['metricTableName']
 '''
 db_schema = settings.DB_SCHEMA or "BLUADMIN"
-table_name = settings.TABLE_NAME or "kalbuildingstest"
+table_name = settings.TABLE_NAME or entity_name
 
 df = db.read_table(table_name=table_name, schema=db_schema)
 # df = db.read_table(table_name=entity_name, schema=db_schema)
