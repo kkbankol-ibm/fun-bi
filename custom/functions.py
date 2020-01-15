@@ -63,11 +63,12 @@ class MaximoAssetHTTP(BasePreload):
         logging.debug('headers %s' %headers)
 
         self.template_id = "building"
-        # TODO, user needs to set this initially
-        self.realm = True
+
+        # TODO, user needs to set this initially if realm gateway is enabled
+        self.realm = False
         self.realm_token = None
-        self.realm_user = "betauser"
-        self.realm_pass = "betauser"
+        self.realm_user = "<realm_user>"
+        self.realm_pass = "<realm_pass>"
 
         self.body = body
         logging.debug('body %s' %body)
@@ -487,3 +488,4 @@ class MaximoAssetHTTP(BasePreload):
         outputs=[]
         outputs.append(ui.UIStatusFlag(name='output_item'))
         return (inputs, outputs)
+
